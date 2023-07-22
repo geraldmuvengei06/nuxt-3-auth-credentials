@@ -7,7 +7,7 @@ async function _signOut() {
             redirect: true
         })
         // Add after logout logic here, could be removing the session data from localstorage or whatever
-    } catch (error) {
+    } catch (error) { 
         console.log('error', error);
         
     }
